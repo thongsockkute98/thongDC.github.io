@@ -1,0 +1,311 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*reset về bằng 0*/
+
+body {
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+h1  {
+    font-size: 1.3125em;
+}
+
+header h1, header h3 {
+    text-transform: uppercase;
+}
+
+
+h3 {
+    font-size: 1.0625em;
+}
+
+header {
+    font-weight: bold;
+    color: #fff;
+    background-image: url('img/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: darkgray;
+    /*Backup background color*/
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header ul {
+    list-style: none;       /*làm mất dấu chấm đầu dòng*/
+    margin-bottom: 100px;
+}
+
+header ul > li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+}
+
+header ul > li > a {
+    color: #fff;
+    font-weight: normal;
+}
+
+.link_button {
+    border: 1px solid #6ac4bc;
+    background-color: #6ac4bc;
+    color: #000;
+    padding: 5px;
+    display: inline-block;
+}
+
+.link_button:hover {
+    border-color: #ccc;     /*làm cho border có màu*/
+    text-decoration: none;
+}
+
+#intro > a {
+    display: inline-block;
+}
+
+#intro  {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#intro > img {
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+#intro > div, #intro > img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#intro > a {
+    display: inline-block;
+}
+
+/*Format for section #service*/
+
+#service {
+    margin-bottom: 20px;
+}
+
+#service > h2 {
+    text-align: center;
+    background-image: url('img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130px;
+    font-size: 1.875em;
+    line-height: 100px;
+    
+}
+
+/*Format for div .project*/
+.project {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid red;
+    width: 70%;
+/*    background: red;*/
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.project img {
+    height: 150px;
+}
+
+.project li {
+    list-style-position: inside;
+}
+
+.project div {
+    text-align: left;
+}
+
+.project div, .project img {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.project ul {
+    text-indent: 25px;
+    list-style-type: circle;
+}
+
+footer {
+    text-align: center;
+}
+
+#ads1 {
+    margin-bottom: 10px;
+}
+
+/*Format for Experience page*/
+
+#experience_wrapper {
+}
+
+
+section #experience_wrapper {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+section #work {
+    text-align: center;
+}
+
+section#tbl_work, section #project_done {
+    margin-bottom: 100px;
+}
+
+table#tbl_work {
+    margin: 5px auto;
+    text-align: left;
+/*    border: 1px solid blue;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+table#tbl_work thead th {
+/*    border-bottom: 2px solid blue;*/
+    padding: 10px;
+    color: azure;
+    background-color: darkmagenta;
+}
+
+table#tbl_work thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table#tbl_work thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table#tbl_work tbody tr td {
+    padding: 6px;
+}
+
+table#tbl_work tbody tr {
+    background-color: rgb(161, 237, 159);
+}
+/*
+table#tbl_work tbody tr:nth-child(even) {
+    background-color: rgb(161,237,159);
+}
+
+table#tbl_work tbody tr:nth-child(odd) {
+    background-color: aquamarine;
+}
+*/
+
+table#tbl_work tbody tr:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+
+/*format for calendar*/
+
+section {
+    text-align: center;
+}
+
+section #tbl_calendar{
+    display: inline-block;
+    text-align: center;
+}
+
+section #tbl_calendar{
+    line-height: 50px;    
+}
+
+section #tbl_calendar thead {
+    background: red;
+}
+
+section #tbl_calendar thead tr th{
+    display: block;
+}
+
+section #tbl_calendar tbody tr td{
+    padding-left: 10px;
+}
+
+    
+}
+fieldset {
+    border: none;
+    display: inline-block;
+}
+legend {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+label.light {
+    display: inline;
+    margin-right: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+textarea,
+select {
+    border: 0;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-bottom: 30px;
+}
+
+
+#contact_form {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 0px 12px #ccc;
+    position: relative;
+
+
+
+
+
+
+
+
+
+
